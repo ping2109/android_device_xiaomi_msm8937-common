@@ -142,7 +142,9 @@ TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Recovery
+ifneq ($(TARGET_DEVICE),tiare)
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+endif
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
