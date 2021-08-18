@@ -66,11 +66,6 @@ vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# Audio dirac - from daisy
-vendor/etc/diracmobile.config
-vendor/lib/libDiracAPI_SHARED.so
-vendor/lib/soundfx/libdirac.so
-
 # Audiosphere
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
