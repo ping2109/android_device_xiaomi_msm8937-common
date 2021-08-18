@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # DPM
 PRODUCT_PACKAGES += \
     libshim_dpmframework
